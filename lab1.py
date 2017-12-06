@@ -1,0 +1,10 @@
+def main():
+    weeks_str = input("Please enter the number of weeks this semester:  ")
+    classes_str = input("Enter the number of classes you are taking:  ")
+    tuition_str = input("Please enter your tuition:  ")
+    weeks = int(weeks_str)
+    classes = int(classes_str)
+    tuition = int(tuition_str)
+    cost_per_week = ((tuition / classes) / weeks)
+    print("Cost per week:", cost_per_week)
+main()
