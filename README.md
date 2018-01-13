@@ -89,8 +89,7 @@ Next, you will begin running and using some of the commands you learned about in
     * Complete programs will always be written in Python scripts
     * Complete programs will have a **main()** function
     * Complete programs will include an invocation of the **main()** function
-    * Each complete program will be saved in a separate file given a **camelCaseName** followed by a **.py** extension
-    * (e.g., **computeAverageProfit.py**)
+    * Each complete program will be saved in a separate file given a **camelCaseName** followed by a **.py** extension (e.g., **computeAverageProfit.py**)
     * :no_entry_sign: *Note that file names should NEVER contain spaces*
 
 ## Part B: Writing the Code
