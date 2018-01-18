@@ -1,4 +1,4 @@
-#### CS 110 - Fall 2017
+#### CS 110 - Spring 2018
 # Lab 1 - Getting Familiar with Your Environment
 ## Due Date: 5:00 p.m., January 25th, 2018
 
@@ -27,11 +27,17 @@ You may research online for additional resources; however, you may not use code 
 
 ## Part A: Learning the Environment and Writing the code
 
-In this lab, you will learn to:
+Part A must be completed in lab. Each lab during the semester will have a Part A that you must attempt to complete in lab. As soon as you complete Part A, you may show the TA and leave. If you cannot complete Part A by the end of lab, speak with the TA at the end of lab.
 
-- Use the command line to issue commands to the operating system
-- Write and execute a simple python program in a command-line environment
-- Use `git` to manage your projects and submit your work for grading.
+If you miss your lab time without prior arrangements with me or the TA, you cannot make up or complete part A outside of lab. In this case, you will not receive credit for Part A, even if completed (_many labs will require you to complete Part A in order to complete the lab_).
+
+There will usually be additional parts to the lab that may be completed outside of lab on your own time.
+
+_In this lab, you will learn to_:
+
+* Use the command line to issue commands to the operating system
+* Write and execute a simple python program in a command-line environment
+* Use `git` to manage your projects and submit your work for grading.
 
 Look for these icons!
 
@@ -116,7 +122,9 @@ Next, be sure you are still in the cs110 directory and execute the following com
 
 We will explore git workflows in-depth later in this lab.
 
-Now that we have our repository set up, we will edit the code. If you are not already familiar with a linux editor, please use gedit, which has several nice features for Python code development.
+Now that we have our repository set up, we will edit the code. Change your directory to the cloned repository. If you aren't sure how to do this, first review part A, and try to figure it out. As a last resort, ask the TA for help.
+
+If you are not already familiar with a linux editor, please use gedit, which has several nice features for Python code development.
 
 :warning: Beware that gedit is a linux editor, and will not work on other OS's.
 
@@ -124,7 +132,7 @@ You can use gedit to open a file by typing, for example, the following into a li
 
 `gedit lab1.py &`
 
-If there is no file in the current folder named *lab1.py*, then gedit will create a new empty one for you (remember, you can check your current folder location with *'pwd'*). If the file does exist, it will edit the existing file.
+If there is no file in the current folder named *lab1.py*, then gedit will create a new empty one for you (remember, you can check your current folder location with `pwd`). If the file does exist, it will edit the existing file.
 
 :bulb: The ampersand at the end of the command says to run this application in the background. This will allows you to write some code, save it, then run it in the shell without quitting gedit.
 
@@ -148,7 +156,6 @@ Open the accompanying *lab1.py* simple program with gedit. You must keep the for
 ## Part C: Submission
 * Required code naming and organization:
     * lab1.py
-    * information.txt
 
 :no_entry: Every lab will have a required submission guidelines. Please read submission requirements carefully. Any deviations from specifications on future labs or projects will result in point deductions or incomplete grades.
 ### Git
@@ -197,6 +204,8 @@ Lastly, the next time we begin a coding session, we will need to [pull](https://
 ```shell
 git pull
 ```
+
+This will allow you to keep your code in the lab and on your own computer synchronized if you want to work outside of lab.
 
 Lastly we are going to make our final commit. You will need to do this when your submission is ready for grading.
 
