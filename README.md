@@ -146,11 +146,10 @@ Open the accompanying *lab1.py* simple program with gedit. You must keep the for
         * :bulb: You should use spaces, not tabs, to indent when writing your own code. Spaces are more cross platform compatible when switching between linux and Windows.
     * Ask the user to input how many times per week a class meets and save that in a variable called `classes_per_week`.
         * For example, our class meets 2 days a week
-        * :bulb: Notice that you have to convert all input from text to a number, as we did for the previous variables. Ensure you make this conversion by following the example of the previous code.
+        * :warning: Don’t forget to convert the input from the user to an `int`. Notice that you have to convert all input from text to a number, as we did for the previous variables. Ensure you make this conversion by following the example from the previous code.
     * Calculate the cost per class by dividing the `cost_per_week` by the `classes_per_week` and save the result in a variable called `cost_per_class`
     * Print the `cost_per_class` to the console with a nice message
         * :bulb: try to figure out the syntax of this based on the syntax and behavior of the rest of your program
-        * :warning: Don’t forget to convert the input from the user to an `int`
 * Save your program, then run it and debug if necessary
     * If you have any difficulty completing this first assignment, ask your TA or post a note on Piazza to get help!
 
