@@ -1,6 +1,6 @@
-#### CS 110 - Spring 2018
+#### CS 110 - Summer 2018
 # Lab 1 - Getting Familiar with Your Environment
-## Due Date: 5:00 p.m., January 25th, 2018
+## Due Date: Midnight, July 4th, 2018
 
 *All programs will be tested on the machines in the LNG103 lab. If your code does not run on the system in this lab, it is considered non-functioning EVEN IF IT RUNS ON YOUR PERSONAL COMPUTER. Always check that your code runs on the lab machines before submitting.*
 
@@ -55,9 +55,9 @@ The Linux help system is accessible through the system man pages. This is standa
         * *command* : starts a program, just like clicking on an icon in the windowed environment
         * *option* : optional configuration flags that change the way the program runs. Usually preceded by a dash, -.
         * *args* : arguments the program needs to run, such as a key or filename
-* For example, to read about the "pwd" command, type ‘man pwd’
+* For example, to read about the "pwd" command, type `man pwd`
     * This will open up the man program and display the help information for the pwd command. In the man page environment, to go forward and look at additional information that does not fit on the first screen, press the **ENTER** key.
-* To exit the man page program, type the letter *q*.
+* To exit the man page program, type the letter `q`.
 * We will be using the following commands often, so review them in the man pages:
     * man
     * pwd
@@ -82,12 +82,13 @@ Next, you will begin running and using some of the commands you learned about in
     * cd cs110
 * Confirm that you are in fact in the cs110 directory by typing the command:
     * pwd
-* Type the command ‘python3’ to enter the Python Interactive Shell
+* Type the command `python3` to enter the Python Interactive Shell
     * Note the prompt (**<<<**) followed by your cursor (**|**)
     * This lets you know that you are in the Python shell, and that the interpreter is awaiting your input.
         * :warning: **The python shell is different from the linux terminal.** Think of it as a special python shell inside the linux shell.
-    * Exit the shell with the *exit()* command
-* The shell environment is the place where you should try out various Python expressions and statements,
+    * Exit the shell with the `exit()` command
+        * :warning: Notice the parenthesis after *exit*. They are required.
+* The shell environment is the place where you should try out various Python expressions and statements.
     * :no_entry_sign: HOWEVER, it is NOT the proper environment in which to write an entire program
 * In your interactive book, you can use the in-browser environment to write "snippets" of code, or Python scripts
     * :warning: These are NOT complete programs
@@ -106,13 +107,16 @@ First, let's set up our git credentials. Enter the following two commands in the
 
 `git config --global user.email "email@binghamton.edu"`
 
-You should be in your cs110 directory. If you are not, go back to part A and try to figure out how to get there. If you need help, ask a TA.
+You should be in your cs110 directory. If you are not, go back to part A and try to figure out how to get there. If you need help, ask someone.
 
 In this directory, you are going to clone this repository to get a copy of the source code onto your account. To do this, you will first need to have signed up for a Github account if you didn't already have one.
 
+***TODO***
+Setup github account and submit username to form
+
 :bulb: If you don't have an account, ask the TA to help you.
 
-Look at the Github landing page for your fork of this project. You should see a green button that says "Clone or download". Press it and you should see a URL like https://github.com/binghamtonuniversity-cs110/lab-1-username.git. Copy that text somewhere you can access it, then go back to the terminal.
+Look at the Github landing page for your fork of this project. You should see a green button that says "Clone or download". Press it and you should see a URL like https://github.com/binghamtonuniversity-cs110/lab-1-summer18-username.git. Copy that text somewhere you can access it, then go back to the terminal.
 
 Next, be sure you are still in the cs110 directory and execute the following command in the terminal:
 
@@ -122,11 +126,11 @@ Next, be sure you are still in the cs110 directory and execute the following com
 
 We will explore git workflows in-depth later in this lab.
 
-Now that we have our repository set up, we will edit the code. Change your directory to the cloned repository. If you aren't sure how to do this, first review part A, and try to figure it out. As a last resort, ask the TA for help.
+Now that we have our repository set up, we will edit the code. Change your directory to the cloned repository. If you aren't sure how to do this, first review part A, and try to figure it out. As a last resort, ask for help.
 
 If you are not already familiar with a linux editor, please use gedit, which has several nice features for Python code development.
 
-:warning: Beware that gedit is a linux editor, and will not work on other OS's.
+:warning: Beware that gedit is a linux editor, and will not work on other OS's (Windows, Mac, etc.).
 
 You can use gedit to open a file by typing, for example, the following into a linux command shell:
 
@@ -142,23 +146,25 @@ Open the accompanying *lab1.py* simple program with gedit. You must keep the for
 
 * First run the program by typing the following command into the terminal: `python3 lab1.py`
 * Next, using the code I have given you as an example, make the following additions to the code:
-    * The **main()** function starts with the line `def main():`. After each variable assigned to inside the **main()** function, insert a print statement that prints both the value *and* the type of the variable
+    * The **main()** function starts with the line `def main():`. After each variable assigned to inside the **main()** function, insert a print statement that prints both the value *and* the type of the variable in a single line
         * :bulb: You should use spaces, not tabs, to indent when writing your own code. Spaces are more cross platform compatible when switching between linux and Windows.
     * Ask the user to input how many times per week a class meets and save that in a variable called `classes_per_week`.
         * For example, our class meets 2 days a week
-        * :warning: Don’t forget to convert the input from the user to an `int`. Notice that you have to convert all input from text to a number, as we did for the previous variables. Ensure you make this conversion by following the example from the previous code.
+        * :warning: Don’t forget to convert the input from the user to an `int`. Notice that you have to convert all input from text to a number, as we did for the previous variables. Ensure you make this conversion by following the example from the provided code.
     * Calculate the cost per class by dividing the `cost_per_week` by the `classes_per_week` and save the result in a variable called `cost_per_class`
     * Print the `cost_per_class` to the console with a nice message
         * :bulb: try to figure out the syntax of this based on the syntax and behavior of the rest of your program
 * Save your program, then run it and debug if necessary
-    * If you have any difficulty completing this first assignment, ask your TA or post a note on Piazza to get help!
+    * If you have any difficulty completing this first assignment, ask for help or post a note on Piazza to get help!
 
 ## Part C: Submission
 * Required code naming and organization:
     * lab1.py
 
 :no_entry: Every lab will have a required submission guidelines. Please read submission requirements carefully. Any deviations from specifications on future labs or projects will result in point deductions or incomplete grades.
+
 ### Git
+
 In this and future labs, we will use Github Classroom repositories. You have already [forked](https://help.github.com/articles/fork-a-repo/) this repository when you accepted the emailed link. That makes a copy of the repository, free for you to make changes. Then you cloned your forked repository to get a working copy onto this machine.
 
 Now that we have made local changes to our working copy, let's [commit](https://git-scm.com/docs/git-commit) those changes to the repository:
@@ -210,14 +216,27 @@ This will allow you to keep your code in the lab and on your own computer synchr
 Lastly we are going to make our final commit. You will need to do this when your submission is ready for grading.
 
 ```shell
-git commit --allow-empty -m "final commit"
+git commit --allow-empty -m "final commit message"
 git push
 ```
 
 The `--allow-empty` option makes it possible to make a commit without having made any changes. This will enable you to just update the comment.
 
-:bulb: You can commit as often as you like, and revert your code to any previous commit. I recommending making commits often with a comment describing the state of your code. The TAs will only grade your submission when the comment says "final commit".
-:warning: You __MUST__ make a submission with the comment "final commit" before the deadline to be considered on time.
+:bulb: You can commit as often as you like, and revert your code to any previous commit using the **commit hash**. The commit hash is a long number that identifies a specific version of your code. I recommending making commits often with a comment describing the state of your code. To find your most recent commit hash, use the following command:
+
+```shell
+git rev-parse HEAD
+```    
+You should get a long, strange looking number:
+```
+35e27598324d8b4d7ddeb4d7aa8abe91c6263705
+```
+
+To complete your submission, you must copy and paste this number into mycourses. Go to MyCourses, select CS110, and assignments. Select Lab 1, and where it says text submission, paste your commit hash. The TAs will only grade your submission that corresponds to the hash you submitted. You can update this as often as you like until the deadline.
+
+I strongly recommend making a submission early on, even if your assignment is not 100% working, to avoid late penalties.
+
+:warning: :warning:You __MUST__ make a submission on mycourses with the commit hash before the deadline to be considered on time **even if your lab is completely working**. :warning: :warning:
 
 That's it! We've completed our work for this lab. We will use this submission process for all subsequent labs and assignments.
 
