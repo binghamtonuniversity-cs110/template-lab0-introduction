@@ -112,7 +112,7 @@ You should be in your cs110 directory. If you are not, go back to part A and try
 In this directory, you are going to clone this repository to get a copy of the source code onto your account. To do this, you will first need to have signed up for a Github account if you didn't already have one.
 
 ***TODO***
-Setup github account and submit username to form
+Setup github account and submit username to google form
 
 :bulb: If you don't have an account, ask the TA to help you.
 
