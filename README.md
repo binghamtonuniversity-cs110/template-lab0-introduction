@@ -12,7 +12,8 @@
 
 **_TOTAL: 10 points_**
 * **Part B: 8 points**
-    * Code runs as expected
+    * Code runs as expected (6 pts)
+    * Google form submitted (2 pts)
 * **Part C: 2 points**
     * Follows requested project structure and submission format
     * Follows [formatting guidelines](https://docs.google.com/document/d/1RU9bHsJhc4wecOXelXF5uUjcNTce4f2I0-09kJKvRvk/edit?usp=sharing)
@@ -97,7 +98,7 @@ Next, you will begin running and using some of the commands you learned about in
     * Complete programs will have a **main()** function
     * Complete programs will include an invocation of the **main()** function
     * Each complete program will be saved in a separate file given a **camelCaseName** followed by a **.py** extension (e.g., **computeAverageProfit.py**)
-    * :no_entry_sign: *Note that file names should NEVER contain spaces*
+        * :no_entry_sign: *Note that file names should NEVER contain spaces*
 
 ## Part B: Writing the Code
 The first thing we are going to do is initialize our folder to work with github.
@@ -111,10 +112,15 @@ You should be in your cs110 directory. If you are not, go back to part A and try
 
 In this directory, you are going to clone this repository to get a copy of the source code onto your account. To do this, you will first need to have signed up for a Github account if you didn't already have one.
 
-***TODO***
-Setup github account and submit username to google form
+### Github
+You will need a Github account to submit your labs. You will also use your Github account any time you need help with your code. If you do not already have one, you can go to (Github)[https://github.com] and sign up.
 
-:bulb: If you don't have an account, ask the TA to help you.
+Once you have signed up for an account, fill out and submit the following google form:
+(https://goo.gl/forms/qAbilZWoDCukNCpk2)[https://goo.gl/forms/qAbilZWoDCukNCpk2]
+
+:warning: You must log in with your bmail to use the form.
+
+:bulb: If you have any trouble, ask for help.
 
 Look at the Github landing page for your fork of this project. You should see a green button that says "Clone or download". Press it and you should see a URL like https://github.com/binghamtonuniversity-cs110/lab-1-summer18-username.git. Copy that text somewhere you can access it, then go back to the terminal.
 
