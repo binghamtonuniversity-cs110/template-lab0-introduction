@@ -113,10 +113,10 @@ You should be in your cs110 directory. If you are not, go back to part A and try
 In this directory, you are going to clone this repository to get a copy of the source code onto your account. To do this, you will first need to have signed up for a Github account if you didn't already have one.
 
 ### Github
-You will need a Github account to submit your labs. You will also use your Github account any time you need help with your code. If you do not already have one, you can go to (Github)[https://github.com] and sign up.
+You will need a Github account to submit your labs. You will also use your Github account any time you need help with your code. If you do not already have one, you can go to [Github](https://github.com) and sign up.
 
 Once you have signed up for an account, fill out and submit the following google form:
-(https://goo.gl/forms/qAbilZWoDCukNCpk2)[https://goo.gl/forms/qAbilZWoDCukNCpk2]
+[https://goo.gl/forms/qAbilZWoDCukNCpk2](https://goo.gl/forms/qAbilZWoDCukNCpk2)
 
 :warning: You must log in with your bmail to use the form.
 
