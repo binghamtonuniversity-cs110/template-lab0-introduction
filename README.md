@@ -12,7 +12,8 @@
 
 **_TOTAL: 10 points_**
 * **Part B: 8 points**
-    * Code runs as expected (6 pts)
+    * Prints data values as requested (3 pts)
+    * Prints data types as requested (3 pts)
     * Google form submitted (2 pts)
 * **Part C: 2 points**
     * Follows requested project structure and submission format
@@ -207,7 +208,7 @@ Now, let's say we don't want `information.txt` in the repository anymore. How ca
 
 ```shell
 git rm information.txt
-git commit -m "Removed an informational file"
+git commit -am "Removed an informational file"
 git push
 ```
 
@@ -222,7 +223,7 @@ This will allow you to keep your code in the lab and on your own computer synchr
 Lastly we are going to make our final commit. You will need to do this when your submission is ready for grading.
 
 ```shell
-git commit --allow-empty -m "final commit message"
+git commit --allow-empty -am "final commit message"
 git push
 ```
 
@@ -242,7 +243,7 @@ To complete your submission, you must copy and paste this number into mycourses.
 
 I strongly recommend making a submission early on, even if your assignment is not 100% working, to avoid late penalties.
 
-:warning: :warning:You __MUST__ make a submission on mycourses with the commit hash before the deadline to be considered on time **even if your lab is completely working**. :warning: :warning:
+:warning: You __MUST__ submit the commit hash on mycourses before the deadline to be considered on time **even if your lab is completely working before the deadline**. :warning:
 
 That's it! We've completed our work for this lab. We will use this submission process for all subsequent labs and assignments.
 
