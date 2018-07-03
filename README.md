@@ -187,7 +187,7 @@ The `-a` says that git should add all tracked files with changes to your commit,
 What about _untracked files_? Run the following commands:
 
 ```shell
-echo $(whoami)@$(hostname):$(pwd) > information.txt
+touch information.txt
 git status
 ```
 
