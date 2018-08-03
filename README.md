@@ -12,7 +12,7 @@
 
 **_TOTAL: 10 points_**
 * **Part B: 8 points**
-    *
+    * Must have at least 2 commits (6 points)
     * Google form submitted (2 pts)
 * **Part C: 2 points**
     * Follows requested project structure and submission format
