@@ -12,8 +12,7 @@
 
 **_TOTAL: 10 points_**
 * **Part B: 8 points**
-    * Prints data values as requested (3 pts)
-    * Prints data types as requested (3 pts)
+    *
     * Google form submitted (2 pts)
 * **Part C: 2 points**
     * Follows requested project structure and submission format
@@ -153,15 +152,8 @@ Open the accompanying *lab1.py* simple program with gedit. You must keep the for
 
 * First run the program by typing the following command into the terminal: `python3 lab1.py`
 * Next, using the code I have given you as an example, make the following additions to the code:
-    * The **main()** function starts with the line `def main():`. After each variable assigned to inside the **main()** function, insert a print statement that prints both the value *and* the type of the variable in a single line
-        * :bulb: You should use spaces, not tabs, to indent when writing your own code. Spaces are more cross platform compatible when switching between linux and Windows.
-    * Ask the user to input how many times per week a class meets and save that in a variable called `classes_per_week`.
-        * For example, our class meets 2 days a week
-        * :warning: Don’t forget to convert the input from the user to an `int`. Notice that you have to convert all input from text to a number, as we did for the previous variables. Ensure you make this conversion by following the example from the provided code.
-    * Calculate the cost per class by dividing the `cost_per_week` by the `classes_per_week` and save the result in a variable called `cost_per_class`
-    * Print the `cost_per_class` to the console with a nice message
-        * :bulb: try to figure out the syntax of this based on the syntax and behavior of the rest of your program
-* Save your program, then run it and debug if necessary
+    * The **main()** function starts with the line `def main():`
+* Save your program, then run it
     * If you have any difficulty completing this first assignment, ask for help or post a note on Piazza to get help!
 
 ## Part C: Submission
@@ -197,6 +189,7 @@ You'll notice that `git` tells us that `information.txt` is an _untracked file_.
 git add information.txt
 git commit -m "Added an informational file"
 ```
+:warning: *You* __must__ *add any new files you create to the repository with the `git add` command or they will not upload to the repo, and your code will not work.*
 
 Once we've made the commits for a given coding session, we need to add those to the repository by performing a [push](https://git-scm.com/docs/git-push):
 
@@ -223,7 +216,7 @@ This will allow you to keep your code in the lab and on your own computer synchr
 Lastly we are going to make our final commit. You will need to do this when your submission is ready for grading.
 
 ```shell
-git commit --allow-empty -am "final commit message"
+git commit --allow-empty -a -m "final commit message"
 git push
 ```
 
