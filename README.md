@@ -77,16 +77,16 @@ The Linux help system is accessible through the system man pages. This is standa
 ### Using Linux Commands
 
 Next, you will begin running and using some of the commands you learned about in the previous section above. In particular, complete the following steps:
-* On the command line, type: cd ~
+* On the command line, type: `cd ~`
     * This takes you to your home directory if you are not already there.
     * :bulb: The ~ is just a shortcut symbol that means home directory
 * Create a directory named cs110. On the command line, you can do this with the following command:
-    * mkdir cs110
+    * `mkdir cs110`
 * Change your "current working directory" to be the cs110 directory. To do this, execute the following command:
-    * cd cs110
+    * `cd cs110`
         * You can navigate *up* a directory using the `..` command. For example, `cd ..` goes up the directory tree.
 * Confirm that you are in fact in the cs110 directory by typing the command:
-    * pwd
+    * `pwd`
 * Next you are going to create a file with a brief explanation of the 3 of the commands you looked up in the previous section. You will use 3 commands to create and verify your file: `echo`, `>>`, `cat`.
     * The `echo` command prints whatever you pass to it to the console. Essentially, it _echos_ what you say to it.
     * You can easily create or append a text file in the terminal with the `>>` command. The `>>` command redirects output to a file instead of printing it.
