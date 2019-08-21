@@ -1,4 +1,4 @@
-#### CS 110 - Summer 2019
+#### CS 110 - Fall 2019
 # Lab 0 - Getting Familiar with Your Environment
 
 ### [Assignment Description](https://docs.google.com/document/d/1j0CNd4KglkOGcRWAJZoJ__PEirOluNjHWm0NtmvEVRo/edit?usp=sharing)
