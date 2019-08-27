@@ -1,0 +1,3 @@
+cd - does stuff
+pwd - does stuff
+fuck - command resolver
